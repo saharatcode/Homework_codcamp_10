@@ -2,7 +2,7 @@
 #### Codecamp_10
 #### นายสหรัฐ  สุระปัญญา
 
-## Lab 3
+### Lab 3
 #### ทำแบบฟอร์มสั่ง pizza ดังรูป  (https://opentechschool.github.io/python-flask/core/forms.html)
 ### Homework1
  1. สร้างหน้า index.html เป็น homepage 
