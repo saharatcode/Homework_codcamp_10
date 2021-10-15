@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book fight</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <fieldset style="width: fit-content; background-color: rgba(216, 191, 216, 0.342);">
+            <legend style="background-color: rgb(244, 247, 78); font-weight: bold;">Book Flight</legend>
+            <table>
+                <tr>
+                    <td colspan="2">
+                    <label for="flyFrom">Flying from</label><br>
+                    <select id="flyStart">
+                        <option value="Thailand">Thailand </option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="Myanmar">Myanmar</option>
+                        <option value="Laos">Laos</option>
+                        <option value="select_form" selected="selected">Form</option>
+                    </select>
+                    </td>
+                    
+                    <td colspan="2">
+                        <label for="to">To</label><br>
+                        <select id="flyEnd">
+                            <option value="Thailand">Thailand </option>
+                            <option value="Vietnam">Vietnam</option>
+                            <option value="Philippines">Philippines</option>
+                            <option value="Myanmar">Myanmar</option>
+                            <option value="Laos">Laos</option>
+                            <option value="select_to" selected="selected">To</option>
+                        </select>
+                        </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="departing">Departing</label><br>
+                        <input type="date" id="departDate" name="departDate">
+                    </td>
+
+                    <td colspan="2">
+                        <label for="returning">Returning</label><br>
+                        <input type="date" id="returning" name="returning">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <form action="#">
+                            <label for="adult">Adult</label><br>
+                            <input type="number"  min="0" max="20">
+                        </form>
+                    </td>
+
+                    <td>
+                        <form action="#">
+                            <label for="child" >Child</label><br>
+                            <input type="number"  min="0" max="20">
+                        </form>
+                    </td>
+
+                    <td>
+                        <form action="#">
+                            <label for="infant">Infant</label><br>
+                            <input type="number"  min="0" max="20">
+                        </form>
+                    </td>
+
+                    <td>
+                            <label for="currency">Currency</label><br>
+                            <select id="currency">
+                                <option value="THB">THB </option>
+                                <option value="VND">VND</option>
+                                <option value="PHP">PHP</option>
+                                <option value="MMK">MMK</option>
+                                <option value="LAK">LAK</option>
+                                <option value="currency" selected="selected">-</option>
+                            </select>
+                      
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="submit" value="SEARCH" style="padding: 8px; margin: 8px 0; background-color: coral; border: none; color: white; font-weight: bold;">
+                    </td>
+                </tr>
+           </table>
+        </fieldset>
+    </form>
+
+</body>
+</html>

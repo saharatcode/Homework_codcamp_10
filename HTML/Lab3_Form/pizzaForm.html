@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Form lab3</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<table>
+<tr>
+    <th colspan="2">Pizza Shop 2.0</th>
+</tr>
+<tr>
+    <td>Name</td>
+    <td><input type="text"></td>
+</tr>
+<tr>
+    <td>Pizza Topping</td>
+    <td>
+        <form action="#">
+            <input type="radio" value="supreme" name="#" >
+            <label for="supreme">Supreme</label><br>
+            <input type="radio" value="vegetarian" name="#">
+            <label for="vegetarian">Vegetarian</label><br>
+            <input type="radio" value="hawaiian" name="#">
+            <label for="hawaiian">Hawaiian</label><br>
+        </form>
+    </td>
+</tr>
+<tr>
+    <td>Pizza Sauce</td>
+    <td>
+        <form action="#">
+            <select name="pizza" id="pizza">
+                <option value="Tomato">Tomato</option>
+                <option value="Barbque">Barbque</option>
+                <option value="Mayonnaise">Mayonnaise</option>
+                <option selected="selected" value="Secret">Secret Sauce</option>
+            </select>
+        </form>
+    </td>
+</tr>
+<tr>
+    <td>Optional Extras</td>
+    <td>
+        <form action="#">
+            <input type="checkbox" id="_extraCheese" name="glutenFreeBase">
+            <label for="extraCheese">Extra Cheese</label>
+            <input type="checkbox" id="_glutenFreeBase" name="glutenFreeBase">
+            <label for="glutenFreeBase">Gluten Free Base</label>
+        </form>
+    </td>
+</tr>
+<tr>
+    <td colspan="2">Delivery Instructions: 
+        <form action="#">
+            <textarea name="" id="" cols="50" rows="4"></textarea>
+        </form>
+    </td>
+</tr>
+<tr>
+    <td colspan="2"><input type="submit" value="Send my Order"></td>
+</tr>
+</table>
+</body>
+</html>
