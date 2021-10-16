@@ -14,4 +14,4 @@ Exercise6 การเขียนเงื่อนไข
 - ถ้าคะแนน น้อยกว่า 50            ได้ F  
 
 4.เปลี่ยน if-else ข้างล่างในอยู่ในรูปของ Ternary Operators  
-![](Exercise6-4.PNG)
+![](imageEx6.PNG)
