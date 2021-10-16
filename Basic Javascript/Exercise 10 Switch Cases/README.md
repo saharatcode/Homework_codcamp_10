@@ -5,4 +5,4 @@ Exercise10 Switch Cases
 ![](Exercise10-1.PNG)
 
 2.แปลง Code ดังกล่าวเป็น Switch cases
-![](Exercise10-2)
+![](Exercise10-2.PNG)
