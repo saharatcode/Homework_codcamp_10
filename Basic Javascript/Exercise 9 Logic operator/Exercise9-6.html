@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+    let firstNumber = +prompt("input first number 1-100 :");
+        let secondNumber = +prompt("input second number 1-100 :");
+        if(firstNumber >= 1 && firstNumber <= 100) {
+            while(secondNumber !== firstNumber){
+                if (secondNumber > firstNumber){
+                    alert(`${secondNumber} more than first number.`)
+
+                }
+                else{ alert(`${secondNumber} less than first number.`)}
+                secondNumber = +prompt("input second number 1-100 :");
+                
+                }
+            alert("Congratulations... The answer is "+secondNumber)
+        }
+        else {alert("Your first number is not between 1 - 100")}
+    </script>
+</body>
+</html>
