@@ -1,0 +1,1 @@
+SELECT DISTINCT S.sname FROM sailors S LEFT JOIN reserves R ON S.sid = R.sid WHERE R.bid IS NOT NULL

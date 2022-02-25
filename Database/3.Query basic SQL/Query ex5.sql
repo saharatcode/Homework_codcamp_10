@@ -1,0 +1,1 @@
+SELECT DISTINCT B.color FROM sailors S LEFT JOIN reserves R ON S.sid = R.sid LEFT JOIN boats B ON R.bid = B.bid WHERE S.sname = 'Lubber'

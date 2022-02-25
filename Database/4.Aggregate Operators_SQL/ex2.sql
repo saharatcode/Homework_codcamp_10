@@ -1,0 +1,1 @@
+SELECT sum(age) FROM boatbooking.sailors WHERE rating = 10;

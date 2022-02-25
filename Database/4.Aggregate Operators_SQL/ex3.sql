@@ -1,0 +1,1 @@
+SELECT avg(age) FROM boatbooking.sailors WHERE rating = 10
