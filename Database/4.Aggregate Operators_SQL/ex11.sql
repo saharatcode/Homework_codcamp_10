@@ -1,0 +1,1 @@
+SELECT MIN(age) FROM sailors S WHERE S.age < 20

@@ -1,0 +1,1 @@
+SELECT S1.sname, S1.sid FROM sailors S1 WHERE S1.age = 25.5

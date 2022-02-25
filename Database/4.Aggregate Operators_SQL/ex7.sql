@@ -1,0 +1,1 @@
+SELECT count(age) FROM sailors S WHERE S.age = 25.5

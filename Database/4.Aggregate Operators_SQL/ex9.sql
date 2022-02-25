@@ -1,0 +1,1 @@
+SELECT * FROM sailors S WHERE S.sname LIKE 'A%'

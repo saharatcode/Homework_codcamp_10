@@ -1,0 +1,1 @@
+SELECT DISTINCT R.sid from reserves R LEFT JOIN boats B ON R.bid = B.bid where B.color = 'Red'
